@@ -1,4 +1,4 @@
-//Author : Suryansh Sharma
+//Author : Aditya bawnoo
 //Date: 16-03-2021
 //Purpose:Number is even or odd
 #include <stdio.h>//Preprocessor directive to include input output function header file
