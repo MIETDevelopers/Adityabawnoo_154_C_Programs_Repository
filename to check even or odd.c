@@ -12,6 +12,6 @@ int main() {//start of the main body function
         printf("%d is even.", num);//Printf function calling to print even num
     else//Else statement
         {
-printf("Not a prime number");
+printf("Number is odd number");
 }
 return 0;
