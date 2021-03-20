@@ -1,4 +1,4 @@
-//Author : Suryansh Sharma
+//Author : Aditya bawnoo
 //Date: 16-03-2021
 //Purpose:Number is even or odd
 #include <stdio.h>//Preprocessor directive to include input output function header file
@@ -11,4 +11,7 @@ int main() {//start of the main body function
     if(num % 2 == 0)//If statement
         printf("%d is even.", num);//Printf function calling to print even num
     else//Else statement
-        pr
+        {
+printf("Number is odd number");
+}
+return 0;
