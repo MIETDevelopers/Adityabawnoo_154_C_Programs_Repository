@@ -1,6 +1,6 @@
 Created by : Aditya Bawnoo 
 DATE: 17 March 2021
-Purpose : Addition of two numbers
+Purpose : Addition, Subtraction, Multiplication,Division of two numbers
 #include<stdio.h>       // Preprocessive directory to include standard input and output
 int main()
 {                       // Start of the main body
