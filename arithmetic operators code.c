@@ -1,4 +1,7 @@
-#include <stdio.h>
+Created by : Aditya Bawnoo 
+DATE: 17 March 2021
+Purpose : Addition of two numbers
+#include<stdio.h>
 int main()
 {
 	int a,b,add,subt,mult;
