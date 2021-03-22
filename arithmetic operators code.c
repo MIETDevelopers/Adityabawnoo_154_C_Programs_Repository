@@ -17,5 +17,5 @@ int main()
 	printf("multiplication of the two numbers =%d\n",mult); // Printf function calling for multiplication of two numbers
 	printf("Divison of the two numbers =%f\n",divide);      // Printf function calling for divison of two numbers
 	return 0;  // return statement
-}}
+}
 	
