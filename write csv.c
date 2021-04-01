@@ -4,7 +4,7 @@
 #include <string.h>//Including string header files. 
 int main() 
 { 
-    FILE* fp = fopen("D:\\Suryansh_119_C_Programs_Repository\\Write_csv.csv", "a+"); //File path.
+    FILE* fp = fopen("D:\\Adityabawnoo_154_C_Programs_Repository\\Write_csv.csv", "a+"); //File path.
 
     char name[50]; 
     int rollno, marks; 
