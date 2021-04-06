@@ -1,8 +1,10 @@
-// A C Program demonstrating use of calloc() function.          20/March/2021
+//Author name : Aditya Bawnoo 
+//Creation date : 20 March 2021
+// Purpose : A C Program demonstrating use of calloc() function.         
 #include <stdio.h> //Using standard input output header file.
 #include <stdlib.h> //Using standard library header file.
     int main() {
-        int i, * ptr, sum = 0;
+        int i, * ptr, sum = 0; // variable declaration
         ptr = calloc(10, sizeof(int));
         if (ptr == NULL) {
             printf("Error! memory not allocated.");
