@@ -4,6 +4,6 @@
 #include<stdio.h> // Preprocessive directory to include standard input or output
 int main(){       // start of the main body
 	printf("Hello Buddy!!"); // Text to be diplayed on the screen after running the program  .
-	return 0;//Returning.
-} 
-//End 
+	return 0;//Returning statement
+} //end of the main body  
+
