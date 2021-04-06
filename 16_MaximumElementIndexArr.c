@@ -1,10 +1,13 @@
-//A C Program to find the largest number in a user entered array.
-#include<stdio.h>
-int main(){
-	int i;
-	float arr[5];
+//Author name : Aditya Bawnoo 
+//Creation date : 20 March 2021
+// Purpose : A C Program to find the largest number in a user entered array.
 
-	printf("Please enter five numbers:\n ");
+#include<stdio.h> // preprocessive directive to include standard input and output header file
+int main(){ // start of the main body
+	int i; // variable declaration
+	float arr[5]; // variable declaration
+
+	printf("Please enter five numbers:\n "); // printf function calling of numbers
 
 	for (i = 0; i < 5; ++i) //Using for loop.
 	{
