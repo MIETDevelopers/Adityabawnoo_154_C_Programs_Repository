@@ -1,3 +1,6 @@
+//Author name : Aditya Bawnoo 
+//Creation date : 20 March 2021
+// Purpose : Program to check odd or even
 #include <stdio.h> // preprocessive directive to include standard input and output header file
 
 int main() 
