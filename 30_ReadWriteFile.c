@@ -1,6 +1,8 @@
-//A C program to Program for reading and writing text files.				 21/March/2021
-#include <stdio.h>
-#include <stdlib.h>
+//Author name : Aditya Bawnoo 
+//Creation date : 20 March 2021
+// Purpose : A C program to Program for reading and writing text files.
+#include <stdio.h> // preprocessive directive to include standard input and output header files
+#include <stdlib.h> // preprocessive directory to include standard library functions
 struct s {
 	//Creating a user defined data type using structures.
 	char text[1000];
