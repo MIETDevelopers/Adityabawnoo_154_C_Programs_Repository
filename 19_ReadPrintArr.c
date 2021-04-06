@@ -1,8 +1,10 @@
-// A C Program to read and print elements in two dimensional array.19/March/2021
-#include<stdio.h>
-int main(){
+//Author name : Aditya Bawnoo 
+//Creation date : 20 March 2021
+// Purpose : A C Program to read and print elements in two dimensional array.
+#include<stdio.h> // Preprocessive directory to include standard input and output header file
+int main(){ // start of the main body
    /* 2D array declaration*/
-   int disp[3][4];
+   int disp[3][4]; 
    /*Counter variables for the loop*/
    int i, j;
    for(i=0; i<3; i++) {
@@ -22,4 +24,4 @@ int main(){
       }
    }
    return 0;
-} 
+} // end of the main body
