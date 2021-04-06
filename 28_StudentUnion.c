@@ -1,9 +1,11 @@
-//A C Program to store information of a student using union.          20/March/2021
-#include <stdio.h>
-#include <string.h>
+//Author name : Aditya Bawnoo 
+//Creation date : 20 March 2021
+// Purpose : A C Program to store information of a student using union.          
+#include <stdio.h> // preprocessive directive to include standard input and output header file
+#include <string.h> // preprocessive directive to include string header file
  
 union student 
-{
+{ // union body starts
             char name[20];
             char subject[20];
             float percentage;
