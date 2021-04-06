@@ -1,6 +1,8 @@
-//A C Program to store Array of structures for student marks for each student and passing it to function for various operations.           20/March/2021
-#include <stdio.h>
-#include <string.h>
+//Author name : Aditya Bawnoo 
+//Creation date : 20 March 2021
+// Purpose :  C Program to store Array of structures for student marks for each student and passing it to function for various operations.
+#include <stdio.h> // preprocessive directive to include standard input and output header file
+#include <string.h> // preprocessive directive to include string header file
  
 struct student 
 { 
