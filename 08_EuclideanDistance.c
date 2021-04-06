@@ -1,5 +1,5 @@
 //Author name : Aditya Bawnoo
-creation date : 22 March 2021
+//creation date : 22 March 2021
 // Purpose : C Program to calculate distance between two points.
 #include<stdio.h> // preprocessive directory to include standard input and output. 
 #include<math.h>  //Including maths header file from library/
