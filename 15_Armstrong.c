@@ -1,10 +1,11 @@
-// Aditya bawnoo
-//18/March/2021
-#include <stdio.h>
-int main() {
-  int num, originalNum, remainder, result = 0;
-  printf("Enter a three-digit integer: \n");
-  scanf("%d", &num);//It will scan the operater entered by user.
+//Author name : Aditya Bawnoo 
+//Creation date : 20 March 2021
+// Purpose : Program to check  Armstrong number
+#include <stdio.h> // preprocessive directory to include standard input and output
+int main() { // start of the main body
+  int num, originalNum, remainder, result = 0; // va
+  printf("Enter a three-digit integer: \n"); // printf function calling for three digit number
+  scanf("%d", &num);//scanf function calling for taking input of the number entered by user.
   originalNum = num;
 
   while (originalNum != 0) {
@@ -24,4 +25,4 @@ int main() {
       printf("%d is not an Armstrong number.", num);
 
   return 0;
-}
+} // end of the main body
