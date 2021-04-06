@@ -7,7 +7,7 @@ int main(){ // start of the main body
 	int i; // variable declaration
 	float arr[5]; // variable declaration
 
-	printf("Please enter five numbers:\n "); // printf function calling of numbers
+	printf("Please enter five numbers:\n "); // printf function calling for numbers
 
 	for (i = 0; i < 5; ++i) //Using for loop.
 	{
