@@ -1,5 +1,7 @@
-//A C Program to store the information of student marks using structures and find total marks of individual student.
-#include <stdio.h>
+//Author name : Aditya Bawnoo 
+//Creation date : 20 March 2021
+// Purpose :  C Program to store the information of student marks using structures and find total marks of individual student.
+#include <stdio.h> // preprocessive directive to include standard input and output header file
 struct student {
     char name[50];
     int roll;
@@ -7,7 +9,7 @@ struct student {
     float marks;
 } s;
 
-int main() {
+int main() { 
     //This will read the user input.
     printf("Enter information:\n");
     printf("Enter name: ");
