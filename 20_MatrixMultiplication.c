@@ -1,10 +1,11 @@
- //Aditya bawnoo
- //19/March/2021
-#include <stdio.h>
+//Author name : Aditya Bawnoo 
+//Creation date : 20 March 2021
+// Purpose : Program for matrix multiplication
+#include <stdio.h> // preprocessive directory to include standard input and output header file
 
 void getMatrixElements(int matrix[][10], int row, int column) {
 
-   printf("\nEnter elements: \n");
+   printf("\nEnter elements: \n"); // prinf function calling for entering elements
    //Taking input from user.
    for (int i = 0; i < row; ++i) {
       for (int j = 0; j < column; ++j) {
