@@ -1,6 +1,8 @@
-//A C program to Program for reading and writing the student marks data to files.				 21/March/2021
-#include <stdio.h>
-#include <stdlib.h>
+//Author name : Aditya Bawnoo 
+//Creation date : 20 March 2021
+// Purpose : A C program to Program for reading and writing the student marks data to files.				 
+#include <stdio.h> // preprocessive directive to include standard input and output header file
+#include <stdlib.h> // preprocessive directive to include standard library functions
 struct s {
 	//Creating a user defined data type using structures.
 	char name[50];
