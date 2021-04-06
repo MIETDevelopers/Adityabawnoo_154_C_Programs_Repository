@@ -1,10 +1,12 @@
-//18/March/2021
-#include <stdio.h>
-#include <conio.h>
+//Author name : Aditya Bawnoo 
+//Creation date : 20 March 2021
+// Purpose : Program to check maximum among numbers
+#include <stdio.h> // preprocessive directive to include standard input and output header file
+#include <conio.h> // console input and output header file
 
 int main()
-{
-  int i,num,n,large=0;
+{ // start of the main body
+  int i,num,n,large=0; // variable declaration
 
   //It will set the maximum number (Limit) of values to be entered by user based on their choice.
   printf("How many numbers: ");
@@ -21,8 +23,6 @@ int main()
 
   printf("\nThe Largest number is %d",large); //It will give the largest number as the output.
   
-  getch();
-  return 0;
-}
-
-//It runs best in Windows Powershell.
+  getch(); //  hold screen till any key is pressed
+  return 0; // return statement
+} // end of the main body
