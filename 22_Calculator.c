@@ -1,8 +1,11 @@
-#include<stdio.h>
-int main(){
-    char operator;
-    double a, b;
-    printf("Enter an operator (+, -, *, /):"); //It will print the operater to be entered by user.
+//Author name : Aditya Bawnoo 
+//Creation date : 20 March 2021
+// Purpose : Program for simple calculator using switch statement
+#include<stdio.h> // preprocessive directive  to include standard input and output header file
+int main(){ // start of the main body
+    char operator; // variable declaration
+    double a, b; // variable declaration
+    printf("Enter an operator (+, -, *, /):"); // printf function calling for entering operator by the user.
     scanf("%c", &operator); //It will scan the operater entered by user.
     printf("Enter two operands:");
     scanf("%lf %lf",&a, &b); //It will scan the numbers entered by user.
