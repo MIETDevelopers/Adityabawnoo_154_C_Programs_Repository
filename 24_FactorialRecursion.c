@@ -1,9 +1,8 @@
 //Author name : Aditya Bawnoo 
 //Creation date : 20 March 2021
 // Purpose : A C Program to print factorial using recursion.	 			
-/**
- * C program to find factorial of any number using recursion
- */
+
+ 
 
 #include <stdio.h>
 
