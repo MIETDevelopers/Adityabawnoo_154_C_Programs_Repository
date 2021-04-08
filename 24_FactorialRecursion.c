@@ -1,19 +1,41 @@
 //Author name : Aditya Bawnoo 
 //Creation date : 20 March 2021
-// Purpose : A C Program to print factorial using recursion.	 			20/March/2021
-#include<stdio.h> // preprocessive directive to include standard input and output header file
-	long int multiplyNumbers(int n);
-	int main() { // start of the main body
-    	int n; // variable declaration
-    	printf("Enter a positive integer: "); // printf function calling for positive integer
-    	scanf("%d",&n); // scanf function calling for talking input of the numbers entered by the user
-    	printf("Factorial of %d = %ld", n, multiplyNumbers(n));
-    	return 0;
-	}
+// Purpose : A C Program to print factorial using recursion.	 			
+/**
+ * C program to find factorial of any number using recursion
+ */
 
-	long int multiplyNumbers(int n) {
-    	if (n>=1)
-        	return n*multiplyNumbers(n-1);
-    	else
-        	return 1;
+#include <stdio.h>
+
+/* Function declaration */
+unsigned long long fact(int num);
+
+
+int main()
+{
+    int num;
+    unsigned long long factorial;
+    
+    /* Input an integer from user */
+    printf("Enter any number: ");
+    scanf("%d", &num);
+    
+    factorial = fact(num); // Call factorial function
+    
+    printf("Factorial of %d is %llu", num, factorial);
+    
+    return 0;
+}
+
+
+/**
+ * Function to compute and return factorial of any number recursively. 
+ */
+unsigned long long fact(int num)
+{
+    // Base condition
+    if(num == 0) 
+	    return 1;
+    else
+        return num * fact(num - 1);
 }
